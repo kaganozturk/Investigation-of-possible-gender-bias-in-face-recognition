@@ -1,3 +1,5 @@
+# Investigation of possible gender bias in face recognition
+
 The goal of this project is to analyze the effects of facial hair (beard and mustache) on face recognition systems using visualization / interpretation methods and provide understanding of the difference between females and males recognition accuracy that recent neural network based approaches have.
 
 In order to investigate the effects of facial hair on face recognition systems, a neural network is used to check if an image has a beard or / and mustache. Recent neural network based models that can detect beards and mustaches are reviewed and a publicly available pretrained model is picked to find images that have facial hair. Then, face matchers in recent studies are reviewed. Their recognition performance on different datasets are compared and one of the best matchers is used in the experiments. CelebA-HQ dataset is used in this project.
