@@ -22,9 +22,9 @@ Once the facial hair segmentation for the test set is obtained using the network
 
 ### Code
 
-[Download the ArcFace network](https://drive.google.com/file/d/1Hc5zUfBATaXUgcU2haUNa7dcaZSw95h2/view?usp=sharing)
-Exract the downloaded file in 'models' folder.
+[Download the ArcFace network].(https://drive.google.com/file/d/1Hc5zUfBATaXUgcU2haUNa7dcaZSw95h2/view?usp=sharing)
+Extract the downloaded file in the 'models' folder.
 
-Run **feature_extraction.py** to extract features for the images in 'examples' folder. The produced features will be saved in 'results' folder as numpy arrays.
+Run **feature_extraction.py** to extract features for the images in the 'examples' folder. The produced features will be saved in the 'results' folder as numpy arrays.
 
 Then, run **feature_matching.py** to print cosine similarity score between two features. Use "--im1" and "--im2" to set the feature paths.
