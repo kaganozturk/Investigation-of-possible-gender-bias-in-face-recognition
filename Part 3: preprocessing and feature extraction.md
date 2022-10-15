@@ -22,7 +22,7 @@ Once the facial hair segmentation for the test set is obtained using the network
 
 ### Code
 
-[Download the ArcFace network].(https://drive.google.com/file/d/1Hc5zUfBATaXUgcU2haUNa7dcaZSw95h2/view?usp=sharing)
+[Download the ArcFace network](https://drive.google.com/file/d/1Hc5zUfBATaXUgcU2haUNa7dcaZSw95h2/view?usp=sharing).
 Extract the downloaded file in the 'models' folder.
 
 Run **feature_extraction.py** to extract features for the images in the 'examples' folder. The produced features will be saved in the 'results' folder as numpy arrays.
