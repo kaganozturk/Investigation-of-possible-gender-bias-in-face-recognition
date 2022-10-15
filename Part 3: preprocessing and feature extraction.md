@@ -20,7 +20,7 @@ Facial hair annotations will be updated with one extra label for near clean shav
 
 Once the facial hair segmentation for the test set is obtained using the network, an input perturbation protocol will be applied to measure the effect of facial hair.
 
-### Code
+# Code
 
 [Download the ArcFace network](https://drive.google.com/file/d/1Hc5zUfBATaXUgcU2haUNa7dcaZSw95h2/view?usp=sharing).
 Extract the downloaded file in the 'models' folder.
