@@ -7,7 +7,7 @@ A semantic segmentation network is trained to mask facial hair on face images in
 #### Training
 1800 images are annotated using [labelme](https://github.com/wkentaro/labelme) annotation tool. 1500 images are used for training and 150 validation images are used to pick the best network during training by looking the IoU on every epoch. Then, performance of the best network is measured on 150 test images. 84.3% and 84% IoU are achieved on validation and test set respectively. 
 
-[sample](./samples/00030_result_iou_87.96.png)
+[sample](./samples/00030_result_iou_87.96.png?raw=true)
 
 #### Code
 
