@@ -28,3 +28,7 @@ Observation includes visual evaluation of saliency maps with the produced matchi
 <p align="center">
   <img src="plot_all_data.png" width="500" title="plot_all_data">
 </p>
+
+<sub> 
+  red: genuine pairs, yellow: clean shaven imposter pairs, green: imposter pairs with the same facial hair style, blue: imposter pairs with different facial hair style
+</sub>
