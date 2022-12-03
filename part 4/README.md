@@ -50,6 +50,6 @@ Images in the 'data_example' folder are used to calculate matching scores and nu
 
 Run **segmentation/predict_facial_hair_mask.py** to obtain the number of pixels masked by the network. Result will be saved to 'no_hair_pixels.pkl'.
 
-Run **calculate_matching_score.py** to get matching scores. Result will be saved to 'matching_scores.pkl'. Run with "--s" to visualize and save saliency maps. Results will be saved to 'Contour.png' and 'heatmap_MinPlus.png'.
+Run **calculate_matching_score.py** to get matching scores. Result will be saved to 'matching_scores.pkl'. Run with "-v" to visualize and save saliency maps. Results will be saved to 'Contour.png' and 'heatmap_MinPlus.png'.
 
 Run **plot_score_vs_no_hair_pixels.py** to plot pairs. Result will be saved to 'plot.png' (Run after getting 'matching_scores.pkl' and 'no_hair_pixels.pkl').
