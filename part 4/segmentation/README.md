@@ -10,7 +10,7 @@ A semantic segmentation network is trained to mask facial hair on face images in
 <!-- [sample](./samples/00030_result_iou_87.96.png) -->
 
 <p align="center">
-  <img src="/samples/00030_result_iou_87.96.png" width="350" title="00030_result_iou_87.96.png">
+  <img src="./samples/00030_result_iou_87.96.png" width="350" title="00030_result_iou_87.96.png">
 </p>
 
 #### Code
