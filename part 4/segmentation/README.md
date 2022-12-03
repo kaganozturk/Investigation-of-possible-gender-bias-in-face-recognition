@@ -7,8 +7,6 @@ A semantic segmentation network is trained to mask facial hair on face images in
 #### Training
 1800 images are annotated using [labelme](https://github.com/wkentaro/labelme) annotation tool. 1500 images are used for training and 150 validation images are used to pick the best network during training by looking the IoU on every epoch. Then, performance of the best network is measured on 150 test images. 84.3% and 84% IoU are achieved on validation and test set respectively. 
 
-<!-- [sample](./samples/00030_result_iou_87.96.png) -->
-
 <p align="center">
   <img src="./samples/00030_result_iou_87.96.png" width="350" title="00030_result_iou_87.96.png">
 </p>
@@ -17,6 +15,6 @@ A semantic segmentation network is trained to mask facial hair on face images in
 
 [Download the segmentation network](https://drive.google.com/file/d/1KSa9_g_cL047Z0B2hEn8cRPsDP7sjPXC/view?usp=share_link).
 
-Run **predict_facial_hair_mask.py** to produce facial hair masks for the images in the 'data_example' folder. The produced imgages will be saved in the 'seg_results' folder.
+Run **predict_facial_hair_mask.py** to produce facial hair masks for the images in the 'data_example' folder. The produced images will be saved in the 'seg_results' folder.
 
-Number of annotated pixels are calculated and saved to'../no_hair_pixels.pkl'.
+Number of annotated pixels are calculated and saved to '../no_hair_pixels.pkl'.
