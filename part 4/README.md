@@ -30,13 +30,15 @@ Observation includes visual evaluation of saliency maps with the produced matchi
 </p>
 
 <sub> 
-  green: imposter pairs with the same facial hair style,  red: genuine pairs,                   
-  blue: imposter pairs with different facial hair style   yellow: clean shaven imposter pairs
+  - green: imposter pairs with the same facial hair style,
+  - red: genuine pairs,                   
+  - blue: imposter pairs with different facial hair style
+  - yellow: clean shaven imposter pairs
 </sub>
 
 ##### Results
 
-50 identities are used to create image pairs. Each person has one clean-shaven image and 7 different facial hair styles obtained by the clean-shaven image using FaceApp. In total 400 * 399 / 2 = 79800 pairs are created. Subsets of 1400 genuine pairs, 1225 clean shaven imposter pairs, 8575 imposter pairs with the same facial hair style and 68600 imposter pairs with different facial hair style are used to investigate the effects of facial hair. The figure above shows the matching score and facial hair size difference of each image pair. By looking the plots we can say;
+50 identities are used to create image pairs. Each person has one clean-shaven image and 7 different facial hair styles obtained by the clean-shaven image using FaceApp. In total 400 * 399 / 2 = 79800 pairs are created. Subsets of 1400 genuine pairs, 1225 clean shaven imposter pairs, 8575 imposter pairs with the same facial hair style and 68600 imposter pairs with different facial hair style are used to investigate the effects of facial hair. The figure above shows the matching score and facial hair size difference of each image pair. By looking the plot we can say;
 - matching scores of genuine pairs get lower when pairs have greater facial hair difference (in terms of number of pixels)
 - imposter pairs with the same facial hair style get higher matching scores compared to the other imposter pairs particularly when they have a close number of facial hair pixels.
 
