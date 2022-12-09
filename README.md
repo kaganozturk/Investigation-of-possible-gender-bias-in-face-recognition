@@ -14,7 +14,7 @@ conda install matplotlib tqdm
 cd "part 4/segmentation/"
 python predict_facial_hair_mask.py
 
-# installs ArcFace and calculate matching scores
+# download ArcFace weights and calculate matching scores
 cd ..
 python calculate_matching_score.py
 
