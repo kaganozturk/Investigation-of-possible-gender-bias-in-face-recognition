@@ -45,11 +45,18 @@ for k, v in matching_scores.items():
             hair_pixels_imp.append(no_hair_pixels_difference(no_hair_p1, no_hair_p2))
             scores_imp.append(v)
 
-plt.scatter(hair_pixels_imp, scores_imp, c='b', marker='+', alpha=.5)
-plt.scatter(hair_pixels_imp_same_hair_style, scores_imp_same_hair_style, c='g', marker='+', alpha=.5)
-plt.scatter(hair_pixels_imp_shaved, scores_imp_shaved, c='y', marker='+', alpha=.5)
-plt.scatter(hair_pixels_gen, scores_gen, c='r', marker='o', alpha=.5)
+imp_dif = plt.scatter(hair_pixels_imp, scores_imp, c='b', marker='+', alpha=.5)
+imp_clean = plt.scatter(hair_pixels_imp_shaved, scores_imp_shaved, c='y', marker='+', alpha=.5)
+imp_same = plt.scatter(hair_pixels_imp_same_hair_style, scores_imp_same_hair_style, c='g', marker='+', alpha=.5)
+gen = plt.scatter(hair_pixels_gen, scores_gen, c='r', marker='o', alpha=.5)
 plt.xlabel('hair_pixel_difference')
 plt.ylabel('matching_score')
+plt.legend((imp_dif, imp_clean, imp_same, gen),
+           ('imp_dif_style', 'imp_only_clean_shaven', 'imp_same_style', 'genuine'),
+           scatterpoints=1,
+           loc='best',
+           ncol=2,
+           fontsize=8)
+
 plt.savefig('plot.png')
 plt.show()
